@@ -35,12 +35,12 @@ function bs_poi_get_post_type()
 {
 	return POI::getInstance('Punto de Interés', 'Puntos de Interés', "puntos-de-interes",
 		array(
-			"coordX" => array(
+			"cordX" => array(
 				"name" => "Coord X",
 				"value" => "cordX",
 				"input" => "text"
 			),
-			"coordY" => array(
+			"cordY" => array(
 				"name" => "Coord Y",
 				"value" => "cordY",
 				"input" => "text"
