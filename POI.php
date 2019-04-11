@@ -18,7 +18,7 @@ class POI
 		$this->db = 'bs-poi';
 		$this->nameSpace = 'bs_poi';
 		$this->path = $path;
-		$this->icon = 'dashicons-hammer';
+		$this->icon = 'dashicons-visibility';
 		$this->customFields = $customFields;
 	}
 
