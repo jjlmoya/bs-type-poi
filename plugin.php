@@ -89,7 +89,7 @@ function bs_poi_register_post_type()
 		"capability_type" => "post",
 		"map_meta_cap" => true,
 		"hierarchical" => false,
-		"rewrite" => array("slug" => $model->path, "with_front" => true),
+		"rewrite" => array("slug" => $model->path, "with_front" => false),
 		"query_var" => true,
 		"supports" =>
 			array("title",
